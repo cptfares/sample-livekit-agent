@@ -1,4 +1,5 @@
-# LiveKit AI Voice Agent with Twilio & AWS S3
+# first-livekit-agent
+Build and deploy your first livekit agent
 
 This repository contains the code for building and deploying an AI voice agent using the LiveKit Agents 1.0 framework, integrated with Twilio for phone calls and AWS S3 for call recording storage.
 
