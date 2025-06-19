@@ -39,7 +39,7 @@ async def main():
     phone_number = input("Enter your Twilio phone number in E.164 format (e.g., +15551234567): ")
     sip_username = input("Enter a NEW username for SIP authentication: ")
     sip_password = input("Enter a NEW secure password for SIP authentication: ")
-    livekit_sip_uri_raw = input("Enter your LiveKit SIP URI (e.g., 1ilz2p1uqv2.sip.livekit.cloud): ").strip()
+    livekit_sip_uri_raw = input("Enter your LiveKit SIP URI (e.g., 3kxm9r7vbn4q.sip.livekit.cloud): ").strip()
     livekit_sip_uri = livekit_sip_uri_raw.replace("sip://", "").replace("sip:", "")
 
     if not all([base_name, phone_number, sip_username, sip_password]):
