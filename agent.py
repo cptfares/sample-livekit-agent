@@ -114,7 +114,7 @@ async def entrypoint(ctx: agents.JobContext):
             # Use the LiveKit API to create a new SIP participant, effectively making a call.
             await ctx.api.sip.create_sip_participant(api.CreateSIPParticipantRequest(
                 room_name=ctx.room.name,
-                sip_trunk_id='ST_6THyVGABMFVf', # The specific SIP trunk to use.
+                sip_trunk_id='ST_p7QcFHJKXXUM', # The specific SIP trunk to use.
                 sip_call_to=phone_number,
                 participant_identity=phone_number, # Identity for the participant in the room.
                 wait_until_answered=True, # Wait for the call to be answered before proceeding.

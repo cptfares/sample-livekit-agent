@@ -1,5 +1,5 @@
-livekit-agents[deepgram,openai,cartesia,silero,turn-detector,rime,groq,google,playai]~=1.0
+livekit-agents[google,cartesia,rime,noise-cancellation,silero,turn-detector]~=1.0
 livekit-plugins-noise-cancellation~=0.2
-python-dotenv
-aiohttp
-twilio
+python-dotenv>=1.0.0
+aiohttp>=3.8.0
+twilio>=7.0.0

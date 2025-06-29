@@ -9,7 +9,7 @@ from livekit import api
 
 # The name of the agent we want to dispatch calls to.
 # This should match the agent_name in your agent's main execution block.
-AGENT_NAME = "livekit-tutorial-hugo"
+AGENT_NAME = "livekit-calls-logs"
 
 async def main():
     """
